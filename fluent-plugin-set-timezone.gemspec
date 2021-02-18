@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name        = "fluent-plugin-set-timezone"
-  spec.description = "Filter plugin for modifying event record"
+  spec.description = "Fluentd filter plugin to shift the timezone of an event using the value of a field on that event."
   spec.homepage    = "https://github.com/orbit-online/fluent-plugin-set-timezone"
   spec.summary     = spec.description
   spec.version     = File.read("VERSION").strip
